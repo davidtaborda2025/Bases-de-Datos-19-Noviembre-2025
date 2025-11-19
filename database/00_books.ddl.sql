@@ -48,7 +48,7 @@ CREATE TABLE book(
 
 -- Tabla author_book.
 -- Representa a la relación de muchos a muchos (N:M) entre los autores y los libros.
-CREATE author_book(
+CREATE TABLE author_book(
     id_book INT NOT NULL REFERENCES book(id_book) ON DELETE RESTRICT,
     id_author INT NOT NULL REFERENCES author(id_author) ON DELETE RESTRICT,
     is_main BOOLEAN NOT NULL DEFAULT FALSE,
