@@ -5,7 +5,7 @@
 -- -------------------------
 -- 1) Usuarios (tuser)
 -- -------------------------
-INSERT INTO tuser (user_name, dob, update_at)
+INSERT INTO tuser (username, dob, update_at)
 VALUES
   (ROW('Carlos','Gómez'),        '1990-04-12 00:00:00', NOW()),
   (ROW('María','Lozano'),        '1985-11-23 00:00:00', NOW()),
@@ -87,7 +87,7 @@ VALUES
 -- -------------------------
 -- 1) Usuarios (tuser)
 -- -------------------------
-INSERT INTO tuser (user_name, dob, update_at)
+INSERT INTO tuser (username, dob, update_at)
 VALUES
   (ROW('Carlos','Gómez'),        '1990-04-12 00:00:00', NOW()),
   (ROW('María','Lozano'),        '1985-11-23 00:00:00', NOW()),
@@ -105,16 +105,16 @@ VALUES
 -- -------------------------
 INSERT INTO user_email (id_user, email)
 VALUES
-  (1, 'carlos.gomez@example.com'),
-  (2, 'maria.lozano@example.com'),
-  (3, 'javier.paredes@example.com'),
-  (4, 'luisa.fernandez@example.com'),
-  (5, 'andres.ramirez@example.com'),
-  (6, 'elena.torres@example.com'),
-  (7, 'roberto.sanchez@example.com'),
-  (8, 'sofia.martinez@example.com'),
-  (9, 'miguel.castro@example.com'),
-  (10,'valeria.rios@example.com');
+  (1, 'carlos.gomez2@example.com'),
+  (2, 'maria.lozano2@example.com'),
+  (3, 'javier.paredes2@example.com'),
+  (4, 'luisa.fernandez2@example.com'),
+  (5, 'andres.ramirez2@example.com'),
+  (6, 'elena.torres2@example.com'),
+  (7, 'roberto.sanchez2@example.com'),
+  (8, 'sofia.martinez2@example.com'),
+  (9, 'miguel.castro2@example.com'),
+  (10,'valeria.rios2@example.com');
 
 -- -------------------------
 -- 3) Autores (author)
